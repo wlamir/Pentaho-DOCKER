@@ -21,5 +21,5 @@ RUN mkdir /opt/santander
 COPY entrypoint.sh /
 RUN chmod 755 /entrypoint.sh
 COPY /ConfigInterna/sshd_config /etc/ssh/sshd_config
-COPY /Instalador/santander-aft-linux-1.3.1.1.tar.gz /opt/santander/
+#COPY /Instalador/santander-aft-linux-1.3.1.1.tar.gz /opt/santander/
 CMD ["/entrypoint.sh"]
