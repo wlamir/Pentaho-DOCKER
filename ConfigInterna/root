@@ -1,0 +1,2 @@
+*/1 * * * * /usr/local/scripts/root/monitoria_aft.sh >  /usr/local/scripts/root/logs/monitora-aft.log 2>&1 &
+*/30 * * * * /usr/local/scripts/root/envio_aft.sh > /usr/local/scripts/root/logs/envio-aft.log 2>&1 &
