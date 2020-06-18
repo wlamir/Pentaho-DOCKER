@@ -2,7 +2,7 @@
 FROM centos:7.8.2003
 ### 2. Get Java via the package manager
 EXPOSE 22
-RUN yum install -y bash openssh-server openssh-clients openrc xauth libxtst libxrender fontconfig ttf-dejavu java-1.8.0-openjdk java-1.8.0-openjdk-devel cronie
+RUN yum install -y bash openssh-server openssh-clients openrc xauth libxtst libxrender fontconfig ttf-dejavu java-1.8.0-openjdk java-1.8.0-openjdk-devel cronie nano
 RUN yum clean all
 ### 3. configure passwordless SSH
 ENV JAVA_HOME /etc/alternatives/jre
