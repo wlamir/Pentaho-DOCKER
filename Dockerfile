@@ -16,7 +16,7 @@ RUN mkdir -p /usr/local/scripts/root/logs/
 #COPY /ConfigInterna/monitoria_aft.sh /usr/local/scripts/root/
 #COPY /ConfigInterna/envio_aft.sh /usr/local/scripts/root/
 COPY /ConfigInterna/root /var/spool/cron/
-#ADD KEY-PUB/santander.pub /root/.ssh/authorized_keys
+ADD KEY-PUB/ednaldo.junior.pub /root/.ssh/authorized_keys
 RUN mkdir /opt/santander
 COPY entrypoint.sh /
 RUN chmod 755 /entrypoint.sh
