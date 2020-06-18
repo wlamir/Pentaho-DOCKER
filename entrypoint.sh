@@ -4,5 +4,5 @@
 
 /usr/sbin/crond
 /usr/sbin/sshd -D -e
-cp -f /opt/chave/authorized_keys /root/.ssh/authorized_keys
+cp -f /opt/chave/authorized_keys /root/.ssh/
 chmod 0600 /root/.ssh/authorized_keys
