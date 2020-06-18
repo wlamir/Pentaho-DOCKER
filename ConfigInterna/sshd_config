@@ -111,8 +111,8 @@ TCPKeepAlive no
 #UsePrivilegeSeparation sandbox
 PermitUserEnvironment yes
 Compression no
-ClientAliveInterval 700
-ClientAliveCountMax 300
+#ClientAliveInterval 700
+#ClientAliveCountMax 300
 #ShowPatchLevel no
 UseDNS no
 #PidFile /var/run/sshd.pid
