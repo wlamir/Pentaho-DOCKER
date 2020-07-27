@@ -150,5 +150,5 @@ MaxAuthTries 2
 MaxSessions 2
 IgnoreRhosts yes
 
-AuthenticationMethods publickey,password publickey
-#,keyboard-interactive
+AuthenticationMethods password publickey,keyboard-interactive 
+#publickey,
