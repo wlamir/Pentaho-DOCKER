@@ -7,7 +7,7 @@ RUN yum clean all
 ### 3. configure passwordless SSH
 ENV JAVA_HOME /etc/alternatives/jre
 #RUN passwd -d root
-RUN ssh-keygen -A
+#RUN ssh-keygen -A
 ENV PASSWORD SenhaDoUsuario
 RUN mkdir /root/.ssh
 RUN touch /root/.ssh/authorized_keys
